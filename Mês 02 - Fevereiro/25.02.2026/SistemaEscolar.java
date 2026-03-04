@@ -1,17 +1,17 @@
 /**
- * 3)
+ * 3) <br>
  * 
- * A classe concentra múltiplas responsabilidades:
+ * A classe concentra múltiplas responsabilidades:<br>
  * 
- * Dados do aluno.
+ * Dados do aluno.<br>
  * 
- * Dados do professor.
+ * Dados do professor.<br>
  * 
- * Cálculo de média.
+ * Cálculo de média.<br>
  * 
- * Impressão de boletim.
+ * Impressão de boletim.<br> <br>
  * 
- * Viola o Princípio da Responsabilidade Única (SRP).
+ * Viola o Princípio da Responsabilidade Única (SRP).<br>
  * 
  * Dificulta manutenção, testes e reutilização do código.
  */

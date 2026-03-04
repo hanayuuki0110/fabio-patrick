@@ -1,11 +1,9 @@
 
 /**
- * 1)
- * O imposto está fixo em 10%, dificultando adaptação a novas regras.
+ * 1)<br>
+ * O imposto está fixo em 10%, dificultando adaptação a novas regras.<br>
  * 
- * Não há forma de incluir novos cálculos (ex: desconto) sem alterar o método.
- * 
- * Violação do princípio aberto/fechado.
+ * Violação do princípio aberto/fechado.<br>
  * 
  * Método com responsabilidade rígida e pouco extensível.
  */

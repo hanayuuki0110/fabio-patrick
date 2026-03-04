@@ -1,33 +1,33 @@
 /**
- * 4)
+ * 4)<br>
  * 
- * Múltiplas responsabilidades na mesma classe.
+ * Múltiplas responsabilidades na mesma classe.<br>
  * 
- * A classe Pedido cuida de:
+ * A classe Pedido cuida de:<br>
  * 
- * Dados do cliente (nome, email).
+ * Dados do cliente (nome, email).<br>
  * 
- * Dados do produto (nome, preço).
+ * Dados do produto (nome, preço).<br>
  * 
- * Lógica de cálculo (total do pedido).
+ * Lógica de cálculo (total do pedido).<br>
  * 
- * Apresentação (impressão no console).
+ * Apresentação (impressão no console).<br><br>
  * 
  * Isso viola o Princípio da Responsabilidade Única (SRP).
  * 
  * 
- * Os atributos não pertencem todos ao mesmo “conceito”:
+ * Os atributos não pertencem todos ao mesmo “conceito”:<br><br>
  * 
- * Cliente ≠ Produto ≠ Pedido.
+ * Cliente ≠ Produto ≠ Pedido.<br>
  * 
- * Alterações em cliente ou produto impactam diretamente o pedido.
+ * Alterações em cliente ou produto impactam diretamente o pedido.<br><br>
  * 
  * 
- * Não é possível reutilizar Cliente ou Produto em outro contexto.
+ * Não é possível reutilizar Cliente ou Produto em outro contexto.<br>
  * 
- * Se um cliente fizer vários pedidos, os dados ficam duplicados.
+ * Se um cliente fizer vários pedidos, os dados ficam duplicados.<br>
  * 
- * Um produto não pode ser compartilhado entre pedidos.
+ * Um produto não pode ser compartilhado entre pedidos.<br>
  * 
  */
 public class Pedido {

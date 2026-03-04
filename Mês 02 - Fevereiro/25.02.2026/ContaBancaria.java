@@ -1,11 +1,11 @@
 
 /**
- * 2)
- * Os atributos titular e saldo não estão encapsulados, violando o encapsulamento.
+ * 2)<br>
+ * Os atributos titular e saldo não estão encapsulados, violando o encapsulamento.<br>
  * 
- * Qualquer classe pode alterar o saldo diretamente (conta.saldo = -1000).
+ * Qualquer classe pode alterar o saldo diretamente (conta.saldo = -1000).<br>
  * 
- * Não há validação para valores negativos em depositar e sacar.
+ * Não há validação para valores negativos em depositar e sacar.<br>
  * 
  * A classe não protege seus invariantes (ex: saldo não deveria ser negativo).
  */
