@@ -10,13 +10,14 @@
  * Método com responsabilidade rígida e pouco extensível.
  */
 public class CalculadoraDePreco {
+	private static final double imposto=0.10;
 
 	public static double calcular(double preco) {
+
 		double resultado = preco;
-		resultado = resultado + (preco * 0.10);
+		resultado = resultado + (preco * imposto);
 		return resultado;
 	}
-
 	public static void main(String[] args) {
 		System.out.println(calcular(100));
 	}
